@@ -1,0 +1,33 @@
+.timeline {
+  border: solid red 1px;
+  width: 1200px;
+
+  .step-left {
+    .center-circle {
+      background-color: yellow;
+      color: black;
+      height: 100px;
+      width: 100px;
+      position: relative;
+      transform: translate(-540%);
+    }
+
+    .left-content {
+      height: 300px;
+      width: 300px;
+
+      .timeline-icon {
+        background-color: green;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 37%;
+        margin-bottom: 3%;
+      }
+
+      .timeline-title {}
+
+      .text-center {}
+    }
+  }
+}
