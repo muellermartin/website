@@ -8,7 +8,6 @@
       color: black;
       height: 100px;
       width: 100px;
-      position: relative;
       transform: translate(-540%);
     }
 
@@ -20,8 +19,7 @@
         background-color: green;
         height: 100px;
         width: 100px;
-        position: relative;
-        left: 33%;
+        margin-left: 33%;
         margin-bottom: 3%;
       }
 
